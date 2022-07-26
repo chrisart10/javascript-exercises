@@ -1,18 +1,10 @@
-const repeatString = function(str,num) {
-    aux = str;
-    str = '';
-    if (num < 0){
-        return 'ERROR';
-    } else if(str != ''){
-
-    } else{
-        let i = 0;
-        while(i++< num){
-            str+=aux;
-        }
-    }
-    return str;
-
+const repeatString = function (word, times) {
+    aux = word;
+    word = '';
+    if (times < 0) return 'ERROR';
+    let i = 0;
+    while (i++ < times) word += aux;
+    return word;
 };
 
 // Do not edit below this line
