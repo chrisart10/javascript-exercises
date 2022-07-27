@@ -1,8 +1,8 @@
-const removeFromArray = function(args,...values) {
-    for (let value of values){
-        args = args.filter(arg => arg !== value);
+const removeFromArray = function(arrays,...args) {
+    for (let arg of args){
+        arrays = arrays.filter(arr => arr !== arg);
     }
-    return args;
+    return arrays;
 };
 
 // Do not edit below this line
