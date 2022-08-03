@@ -1,4 +1,5 @@
 const fibonacci = function (length) {
+    // reference: https://www.cuemath.com/numbers/fibonacci-sequence/
     length = Number(length);
 
     if (length < 0) return 'OOPS';
