@@ -6,7 +6,7 @@ const subtract = function (operand1, operand2) {
   return operand1 - operand2;
 };
 
-const sum = function ([...operands]) {
+const sum = function (operands) {
   let total = 0;
   for (let index = 0; index < operands.length; index++) {
     total += operands[index];
@@ -14,7 +14,7 @@ const sum = function ([...operands]) {
   return total;
 };
 
-const multiply = function ([...operands]) {
+const multiply = function (operands) {
   let total = operands[0];
   for (let index = 1; index < operands.length; index++) {
     total *= operands[index];
